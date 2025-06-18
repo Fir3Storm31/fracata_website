@@ -60,6 +60,20 @@ app.get('/books', (req, res) => {
     });
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-}); 
+// Handle 404
+app.use((req, res) => {
+    res.status(404).render('404', {
+        title: '404 - Not Found',
+        active: ''
+    });
+});
+
+// Only start the server if we're not in a Vercel environment
+if (process.env.NODE_ENV !== 'production') {
+    app.listen(PORT, () => {
+        console.log(`Server is running on port ${PORT}`);
+    });
+}
+
+// Export the Express app for Vercel
+module.exports = app; 

@@ -1,0 +1,52 @@
+<section class="books-hero">
+    <h1>Books</h1>
+    <p class="lead">A collection of books that have shaped my thinking and perspective</p>
+</section>
+
+<section class="books">
+    <h2>Books I Read</h2>
+    
+    <div class="category-filter">
+        <select id="categorySelect" class="category-select">
+            <option value="all">All Categories</option>
+            <% 
+            const categories = new Set();
+            books.forEach(book => {
+                book.categories.forEach(category => categories.add(category));
+            });
+            categories.forEach(category => { %>
+                <option value="<%= category.toLowerCase() %>"><%= category %></option>
+            <% }); %>
+        </select>
+    </div>
+
+    <div class="book-grid">
+        <% books.forEach(book => { %>
+            <div class="book-box" data-categories="<%= book.categories.map(c => c.toLowerCase()).join(' ') %>">
+                <img src="/images/books/<%= book.image %>" alt="<%= book.alt %>">
+                <h3><%= book.title %></h3>
+                <p><%= book.author %></p>
+            </div>
+        <% }); %>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const categorySelect = document.getElementById('categorySelect');
+    const bookBoxes = document.querySelectorAll('.book-box');
+
+    categorySelect.addEventListener('change', () => {
+        const selectedCategory = categorySelect.value;
+
+        // Filter books
+        bookBoxes.forEach(book => {
+            if (selectedCategory === 'all' || book.dataset.categories.includes(selectedCategory)) {
+                book.style.display = 'block';
+            } else {
+                book.style.display = 'none';
+            }
+        });
+    });
+});
+</script>

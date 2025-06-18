@@ -1,0 +1,165 @@
+{
+    "books": [
+        {
+            "title": "L'arte della guerra",
+            "author": "Sun Tzu",
+            "image": "l'arte_della_guerra.jpeg",
+            "alt": "L'arte della guerra",
+            "categories": ["Philosophy"]
+        },
+        {
+            "title": "Zio Petros",
+            "author": "Apostolos Doxiadis",
+            "image": "zio_petros_e_la_congettura_di_goldbach.jpg",
+            "alt": "Lo zio petros e La congettura di Golbach",
+            "categories": ["Narrative"]
+        },
+        {
+            "title": "Sette brevi lezioni di fisica",
+            "author": "Carlo Rovelli",
+            "image": "sette_brevi_lezioni_di_fisica.jpg",
+            "alt": "Sette brevi lezioni di fisica",
+            "categories": ["Scientific"]
+        },
+        {
+            "title": "Uomini e soldi",
+            "author": "Paolo Basilico",
+            "image": "uomini_e_soldi.jpg",
+            "alt": "Uomini e soldi",
+            "categories": ["Economics"]
+        },
+        {
+            "title": "Il sentiero dei nidi di ragno",
+            "author": "Italo Calvino",
+            "image": "il_sentiero_dei_nidi_di_ragno.jpg",
+            "alt": "Il sentiero dei nidi di ragno",
+            "categories": ["Narrative"]
+        },
+        {
+            "title": "Lezioni americane",
+            "author": "Italo Calvino",
+            "image": "lezioni_americane.jpg",
+            "alt": "Lezioni americane",
+            "categories": ["Literature", "Philosophy"]
+        },
+        {
+            "title": "Atomic habits",
+            "author": "James Clear",
+            "image": "atomic_habits.jpg",
+            "alt": "Atomic habits",
+            "categories": ["Psychology"]
+        },
+        {
+            "title": "Il barone rampante",
+            "author": "Italo Calvino",
+            "image": "il_barone_rampante.jpg",
+            "alt": "Il barone rampante",
+            "categories": ["Narrative"]
+        },
+        {
+            "title": "Il cavaliere inesistente",
+            "author": "Italo Calvino",
+            "image": "il_cavaliere_inesistente.jpg",
+            "alt": "Il cavaliere inesistente",
+            "categories": ["Narrative"]
+        },
+        {
+            "title": "Il visconte dimezzato",
+            "author": "Italo Calvino",
+            "image": "il_visconte_dimezzato.jpg",
+            "alt": "Il visconte dimezzato",
+            "categories": ["Narrative"]
+        },
+        {
+            "title": "Tuesdays with Morrie",
+            "author": "Mitch Albom",
+            "image": "tuesdays_with_morrie.jpg",
+            "alt": "Tuesdays with Morrie",
+            "categories": ["Narrative"]
+        },
+        {
+            "title": "Jonathan Livingston Seagull",
+            "author": "Richard Bach",
+            "image": "jonathan_livingston_seagull.jpg",
+            "alt": "Jonathan Livingston Seagull",
+            "categories": ["Philosophy", "Narrative"]
+        },
+        {
+            "title": "Il piccolo principe",
+            "author": "Antoine de Saint-Exupéry",
+            "image": "il_piccolo_principe.jpg",
+            "alt": "Il piccolo principe",
+            "categories": ["Narrative", "Philosophy"]
+        },
+        {
+            "title": "Storia umana della matematica",
+            "author": "Chiara Valerio",
+            "image": "storia_umana_della_matematica.jpg",
+            "alt": "Storia umana della matematica",
+            "categories": ["Scientific"]
+        },
+        {
+            "title": "Una questione privata",
+            "author": "Beppe Fenoglio",
+            "image": "una_questione_privata.jpg",
+            "alt": "Una questione privata",
+            "categories": ["Narrative"]
+        },
+        {
+            "title": "Il dottor Jekyll e Mr Hyde",
+            "author": "Robert Louis Stevenson",
+            "image": "il_dottor_jekyll_e_mr_hyde.jpg",
+            "alt": "Il dottor Jekyll e Mr Hyde",
+            "categories": ["Narrative"]
+        },
+        {
+            "title": "Animal Farm",
+            "author": "George Orwell",
+            "image": "animal_farm.jpg",
+            "alt": "Animal Farm",
+            "categories": ["Narrative", "Political"]
+        },
+        {
+            "title": "Flatlandia",
+            "author": "Edwin A. Abbott",
+            "image": "flatlandia.jpg",
+            "alt": "Flatlandia",
+            "categories": ["Scientific", "Narrative"]
+        },
+        {
+            "title": "La Bibbia censurata",
+            "author": "Corrado Augias",
+            "image": "la_bibbia_censurata.jpg",
+            "alt": "La Bibbia censurata",
+            "categories": ["Religion", "History"]
+        },
+        {
+            "title": "Indian Horse",
+            "author": "Richard Wagamese",
+            "image": "indian_horse.jpg",
+            "alt": "Indian Horse",
+            "categories": ["Narrative"]
+        },
+        {
+            "title": "Moon of the Crusted Snow",
+            "author": "Waubgeshig Rice",
+            "image": "moon_of_the_crusted_snow.jpg",
+            "alt": "Moon of the Crusted Snow",
+            "categories": ["Narrative", "Dystopian"]
+        },
+        {
+            "title": "The intelligent investor",
+            "author": "Benjamin Graham",
+            "image": "the_intelligent_investor.jpg",
+            "alt": "The intelligent investor",
+            "categories": ["Economics"]
+        },
+        {
+            "title": "The big secret for the small investor",
+            "author": "Joel Greenblatt",
+            "image": "the_big_secret_for_the_small_investor.jpg",
+            "alt": "The big secret for the small investor",
+            "categories": ["Economics"]
+        }
+    ]
+}

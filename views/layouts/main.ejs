@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="/">Francesco A. Catalanotti</a>
+        </div>
+        <ul class="nav-links">
+            <li class="<%= active === 'home' ? 'active' : '' %>">
+                <a href="/">Home</a>
+            </li>
+            <li class="<%= active === 'about' ? 'active' : '' %>">
+                <a href="/about">About</a>
+            </li>
+            <li class="<%= active === 'work' ? 'active' : '' %>">
+                <a href="/work">Work</a>
+            </li>
+            <li class="<%= active === 'education' ? 'active' : '' %>">
+                <a href="/education">Education</a>
+            </li>
+            <li class="<%= active === 'volunteering' ? 'active' : '' %>">
+                <a href="/volunteering">Volunteering</a>
+            </li>
+            <li class="<%= active === 'books' ? 'active' : '' %>">
+                <a href="/books">Books</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main class="container">
+        <%- body %>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/francesco-catalanotti/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; <%= new Date().getFullYear() %> Francesco Andrea Catalanotti. All rights reserved.</p>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html> 

@@ -1,6 +1,13 @@
 {
     "books": [
         {
+            "title": "Candido",
+            "author": "Voltaire",
+            "image": "candido.jpg",
+            "alt": "Candido",
+            "categories": ["Philosophy", "Narrative"]
+        },
+        {
             "title": "L'arte della guerra",
             "author": "Sun Tzu",
             "image": "l'arte_della_guerra.jpeg",
@@ -47,7 +54,7 @@
             "author": "James Clear",
             "image": "atomic_habits.jpg",
             "alt": "Atomic habits",
-            "categories": ["Psychology"]
+            "categories": ["Personal Growth"]
         },
         {
             "title": "Il barone rampante",
@@ -124,7 +131,7 @@
             "author": "Edwin A. Abbott",
             "image": "flatlandia.jpg",
             "alt": "Flatlandia",
-            "categories": ["Scientific", "Narrative"]
+            "categories": ["Narrative"]
         },
         {
             "title": "La Bibbia censurata",
@@ -145,7 +152,7 @@
             "author": "Waubgeshig Rice",
             "image": "moon_of_the_crusted_snow.jpg",
             "alt": "Moon of the Crusted Snow",
-            "categories": ["Narrative", "Dystopian"]
+            "categories": ["Narrative"]
         },
         {
             "title": "The intelligent investor",

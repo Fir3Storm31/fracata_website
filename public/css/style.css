@@ -310,11 +310,13 @@ section h2 {
 
 @media (max-width: 768px) {
 
-    .books-hero h1 {
+    .books-hero h1,
+    .projects-hero h1 {
         font-size: 2rem;
     }
 
-    .books-hero .lead {
+    .books-hero .lead,
+    .projects-hero .lead {
         font-size: 1.2rem;
     }
 
@@ -482,6 +484,27 @@ section h2 {
     object-fit: cover;
     display: block;
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+/* Projects Hero Section */
+.projects-hero {
+    text-align: center;
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+}
+
+.projects-hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.projects-hero .lead {
+    font-size: 1.3rem;
+    color: var(--light-text);
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 @media (max-width: 600px) {

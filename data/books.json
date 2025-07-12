@@ -1,6 +1,13 @@
 {
     "books": [
         {
+            "title": "Il lupo della steppa",
+            "author": "Herman Hesse",
+            "image": "il_lupo_della_steppa.jpg",
+            "alt": "Il lupo della steppa",
+            "categories": ["Philosophy", "Narrative"]
+        },
+        {
             "title": "Candido",
             "author": "Voltaire",
             "image": "candido.jpg",
